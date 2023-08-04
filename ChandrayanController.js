@@ -34,6 +34,8 @@ addEventListener('keyup', function(e) {
         vy = 0
     if(e.code == 'KeyB')
         vy = 0
+    
+    console.log(x, y)
 })
 
 function update() {
